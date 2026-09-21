@@ -1,502 +1,803 @@
-```html
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
-  <meta
-    name="description"
-    content="CreativeX - creación de sitios web, catálogos digitales y páginas para restaurantes."
-  >
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    >
 
-  <title>CreativeX | Desarrollo Web</title>
+    <meta
+        name="description"
+        content="CreativeX - creación de páginas web, catálogos y sitios para negocios."
+    >
 
-  <link rel="stylesheet" href="style.css">
+    <title>CreativeX | Desarrollo Web</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- =========================
-       NAVEGACIÓN
-  ========================== -->
-  <header class="navbar">
-
-    <a href="#inicio" class="logo">
-      CREATIVE<span>X</span>
-    </a>
-
-    <nav>
-      <a href="#servicios">Servicios</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#proceso">Proceso</a>
-      <a href="#contacto" class="nav-button">
-        Contactar
-      </a>
-    </nav>
-
-  </header>
-
-
-  <!-- =========================
-       INICIO
-  ========================== -->
-  <main>
-
-    <section class="hero" id="inicio">
-
-      <div class="hero-text">
-
-        <p class="eyebrow">
-          DESARROLLO WEB PARA NEGOCIOS
-        </p>
-
-        <h1>
-          Tu negocio.
-          <br>
-          <span>Tu propia web.</span>
-        </h1>
-
-        <p class="hero-description">
-          Creo sitios web modernos para restaurantes,
-          tiendas y pequeños negocios.
-          Catálogos, menús digitales, páginas
-          informativas y contacto por WhatsApp.
-        </p>
-
-        <div class="hero-buttons">
-
-          <a href="#proyectos" class="button primary">
-            Ver proyectos
-          </a>
-
-          <a href="#contacto" class="button secondary">
-            Quiero mi página
-          </a>
-
-        </div>
-
-      </div>
-
-
-      <!-- PERSONAJE -->
-      <div class="character-area">
-
-        <div class="cloud cloud-one"></div>
-        <div class="cloud cloud-two"></div>
-
-        <div class="hill hill-one"></div>
-        <div class="hill hill-two"></div>
-
-
-        <div class="character">
-
-          <!-- CABEZA -->
-          <div class="head">
-
-            <div class="ear left-ear"></div>
-            <div class="ear right-ear"></div>
-
-            <div class="hair"></div>
-
-            <div class="eye left-eye">
-              <span></span>
-            </div>
-
-            <div class="eye right-eye">
-              <span></span>
-            </div>
-
-            <div class="nose"></div>
-
-            <div class="mouth"></div>
-
-          </div>
-
-
-          <!-- CUERPO -->
-          <div class="body">
-
-            <div class="shirt-logo">
-              CX
-            </div>
-
-          </div>
-
-
-          <!-- PIERNAS -->
-          <div class="leg left-leg"></div>
-          <div class="leg right-leg"></div>
-
-
-          <!-- ZAPATOS -->
-          <div class="shoe left-shoe"></div>
-          <div class="shoe right-shoe"></div>
-
-        </div>
-
-
-        <!-- BURBUJA -->
-        <div class="speech-bubble">
-          ¿Hacemos
-          <strong>tu web?</strong>
-        </div>
-
-      </div>
-
-    </section>
-
-
-
     <!-- =========================
-         SERVICIOS
+         NAVBAR
     ========================== -->
-    <section class="section services" id="servicios">
 
-      <div class="section-title">
+    <header class="navbar">
 
-        <p class="eyebrow">
-          LO QUE HAGO
-        </p>
-
-        <h2>
-          Una web para cada idea.
-        </h2>
-
-        <p>
-          Diseño páginas pensadas para que tu negocio
-          tenga presencia en internet.
-        </p>
-
-      </div>
-
-
-      <div class="service-grid">
-
-
-        <article class="service-card">
-
-          <div class="service-number">
-            01
-          </div>
-
-          <h3>
-            Sitios web
-          </h3>
-
-          <p>
-            Páginas profesionales para presentar
-            tu negocio y facilitar que tus clientes
-            conozcan lo que haces.
-          </p>
-
-        </article>
-
-
-        <article class="service-card">
-
-          <div class="service-number">
-            02
-          </div>
-
-          <h3>
-            Restaurantes
-          </h3>
-
-          <p>
-            Menús digitales, productos, horarios,
-            ubicación y contacto directo.
-          </p>
-
-        </article>
-
-
-        <article class="service-card">
-
-          <div class="service-number">
-            03
-          </div>
-
-          <h3>
-            Catálogos
-          </h3>
-
-          <p>
-            Muestra tus productos de forma clara
-            desde cualquier celular.
-          </p>
-
-        </article>
-
-
-        <article class="service-card">
-
-          <div class="service-number">
-            04
-          </div>
-
-          <h3>
-            WhatsApp
-          </h3>
-
-          <p>
-            Botones de contacto para que tus
-            clientes puedan escribirte rápidamente.
-          </p>
-
-        </article>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =========================
-         PROYECTOS
-    ========================== -->
-    <section class="section projects" id="proyectos">
-
-      <div class="section-title">
-
-        <p class="eyebrow">
-          MIS PROYECTOS
-        </p>
-
-        <h2>
-          Trabajos que ya hice.
-        </h2>
-
-        <p>
-          Algunos de los sitios que he creado.
-        </p>
-
-      </div>
-
-
-      <div class="project-grid">
-
-
-        <!-- PROYECTO 1 -->
-        <article class="project-card">
-
-          <div class="project-image pizza-image">
-
-            <div class="pizza-icon">
-              🍕
-            </div>
-
-          </div>
-
-          <div class="project-content">
-
-            <small>
-              RESTAURANTE
-            </small>
-
-            <h3>
-              La Casa de la Pizza
-            </h3>
-
-            <p>
-              Página web para restaurante con
-              menú digital y contacto.
-            </p>
-
-            <a
-              href="https://creativex-hub.github.io/la-casa-de-la-pizza/"
-              target="_blank"
-              rel="noopener"
-            >
-              Ver proyecto ↗
-            </a>
-
-          </div>
-
-        </article>
-
-
-
-        <!-- PROYECTO 2 -->
-        <article class="project-card">
-
-          <div class="project-image future-image">
-
-            <div class="plus">
-              +
-            </div>
-
-          </div>
-
-          <div class="project-content">
-
-            <small>
-              PRÓXIMO PROYECTO
-            </small>
-
-            <h3>
-              Tu negocio puede estar aquí
-            </h3>
-
-            <p>
-              Estoy creando nuevas páginas para
-              negocios y emprendedores.
-            </p>
-
-            <a href="#contacto">
-              Hablemos →
-            </a>
-
-          </div>
-
-        </article>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =========================
-         PROCESO
-    ========================== -->
-    <section class="section process" id="proceso">
-
-      <div class="section-title">
-
-        <p class="eyebrow">
-          MI PROCESO
-        </p>
-
-        <h2>
-          Simple y directo.
-        </h2>
-
-      </div>
-
-
-      <div class="process-grid">
-
-
-        <div class="process-step">
-
-          <strong>
-            01
-          </strong>
-
-          <h3>
-            Me cuentas tu idea
-          </h3>
-
-          <p>
-            Me dices qué vendes, qué necesitas
-            y cómo quieres que sea tu página.
-          </p>
-
-        </div>
-
-
-        <div class="process-step">
-
-          <strong>
-            02
-          </strong>
-
-          <h3>
-            Creo el diseño
-          </h3>
-
-          <p>
-            Organizo la información y desarrollo
-            la página para que funcione en celular
-            y computadora.
-          </p>
-
-        </div>
-
-
-        <div class="process-step">
-
-          <strong>
-            03
-          </strong>
-
-          <h3>
-            Publicamos
-          </h3>
-
-          <p>
-            Tu sitio queda listo para compartir
-            con tus clientes.
-          </p>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =========================
-         CONTACTO
-    ========================== -->
-    <section class="contact" id="contacto">
-
-      <div class="contact-avatar">
-        👨‍💻
-      </div>
-
-
-      <div class="contact-content">
-
-        <p class="eyebrow">
-          ¿TIENES UN NEGOCIO?
-        </p>
-
-        <h2>
-          Cuéntame qué quieres crear.
-        </h2>
-
-        <p>
-          Hablemos de tu idea y vemos qué tipo
-          de página necesita tu negocio.
-        </p>
-
-        <!-- CAMBIA EL NÚMERO POR TU WHATSAPP -->
-        <a
-          class="button primary"
-          href="https://wa.me/51999999999?text=Hola%20CreativeX%2C%20quiero%20crear%20una%20p%C3%A1gina%20web%20para%20mi%20negocio."
-          target="_blank"
-          rel="noopener"
-        >
-          Hablar por WhatsApp
+        <a href="#inicio" class="logo">
+            CREATIVE<span>X</span>
         </a>
 
-      </div>
+        <nav>
+            <a href="#servicios">Servicios</a>
+            <a href="#precios">Precios</a>
+            <a href="#proyectos">Proyectos</a>
 
-    </section>
+            <a href="#contacto" class="nav-button">
+                Contactar
+            </a>
+        </nav>
 
-  </main>
+    </header>
+
+
+    <main>
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-text">
+
+                <p class="eyebrow">
+                    DESARROLLO WEB PARA NEGOCIOS
+                </p>
+
+                <h1>
+                    Tu negocio.
+                    <br>
+                    <span>Tu propia web.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Creo páginas web, catálogos digitales y sitios
+                    para restaurantes y negocios que quieren tener
+                    presencia en internet.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#precios"
+                        class="button primary"
+                    >
+                        Ver precios
+                    </a>
+
+                    <a
+                        href="#contacto"
+                        class="button secondary"
+                    >
+                        Quiero mi página
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PERSONAJE -->
+
+            <div class="character-area">
+
+                <div class="cloud cloud-one"></div>
+                <div class="cloud cloud-two"></div>
+
+                <div class="hill hill-one"></div>
+                <div class="hill hill-two"></div>
+
+
+                <div class="character">
+
+                    <div class="head">
+
+                        <div class="ear left-ear"></div>
+                        <div class="ear right-ear"></div>
+
+                        <div class="hair"></div>
+
+                        <div class="eye left-eye">
+                            <span></span>
+                        </div>
+
+                        <div class="eye right-eye">
+                            <span></span>
+                        </div>
+
+                        <div class="nose"></div>
+
+                        <div class="mouth"></div>
+
+                    </div>
+
+
+                    <div class="body">
+
+                        <div class="shirt-logo">
+                            CX
+                        </div>
+
+                    </div>
+
+
+                    <div class="leg left-leg"></div>
+                    <div class="leg right-leg"></div>
+
+                    <div class="shoe left-shoe"></div>
+                    <div class="shoe right-shoe"></div>
+
+                </div>
+
+
+                <div class="speech-bubble">
+                    ¿Hacemos
+                    <strong>tu web?</strong>
+                </div>
+
+            </div>
+
+        </section>
 
 
 
-  <!-- =========================
-       FOOTER
-  ========================== -->
-  <footer>
+        <!-- =========================
+             SERVICIOS
+        ========================== -->
 
-    <div class="footer-logo">
-      CREATIVE<span>X</span>
-    </div>
+        <section
+            class="section services"
+            id="servicios"
+        >
 
-    <p>
-      Diseño y desarrollo web para negocios.
-    </p>
+            <div class="section-title">
 
-  </footer>
+                <p class="eyebrow">
+                    LO QUE HAGO
+                </p>
+
+                <h2>
+                    Una web para cada idea.
+                </h2>
+
+                <p>
+                    Soluciones digitales para negocios,
+                    restaurantes y emprendedores.
+                </p>
+
+            </div>
+
+
+            <div class="service-grid">
+
+                <article class="service-card">
+
+                    <div class="service-number">
+                        01
+                    </div>
+
+                    <h3>
+                        Catálogos
+                    </h3>
+
+                    <p>
+                        Catálogos digitales para mostrar
+                        tus productos de forma sencilla
+                        desde cualquier celular.
+                    </p>
+
+                </article>
+
+
+                <article class="service-card">
+
+                    <div class="service-number">
+                        02
+                    </div>
+
+                    <h3>
+                        Restaurantes
+                    </h3>
+
+                    <p>
+                        Menús digitales, productos,
+                        horarios, ubicación y contacto
+                        por WhatsApp.
+                    </p>
+
+                </article>
+
+
+                <article class="service-card">
+
+                    <div class="service-number">
+                        03
+                    </div>
+
+                    <h3>
+                        Sitios web
+                    </h3>
+
+                    <p>
+                        Páginas profesionales para
+                        presentar tu negocio en internet.
+                    </p>
+
+                </article>
+
+
+                <article class="service-card">
+
+                    <div class="service-number">
+                        04
+                    </div>
+
+                    <h3>
+                        Personalización
+                    </h3>
+
+                    <p>
+                        Diseños adaptados a la identidad
+                        y necesidades de tu negocio.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PRECIOS
+        ========================== -->
+
+        <section
+            class="section pricing"
+            id="precios"
+        >
+
+            <div class="section-title pricing-title">
+
+                <p class="eyebrow">
+                    PRECIOS
+                </p>
+
+                <h2>
+                    Elige tu página.
+                </h2>
+
+                <p>
+                    Tres opciones para llevar tu negocio
+                    a internet.
+                </p>
+
+            </div>
+
+
+            <div class="pricing-grid">
+
+
+                <!-- =========================
+                     CATÁLOGO BÁSICO
+                ========================== -->
+
+                <article class="price-card">
+
+                    <div class="price-top">
+
+                        <span class="price-number">
+                            01
+                        </span>
+
+                        <p class="price-type">
+                            CATÁLOGO BÁSICO
+                        </p>
+
+                    </div>
+
+
+                    <div class="price">
+                        <small>S/</small> 100
+                    </div>
+
+
+                    <p class="price-description">
+                        Para mostrar tus productos o servicios
+                        de forma sencilla y ordenada.
+                    </p>
+
+
+                    <div class="price-line"></div>
+
+
+                    <p class="includes">
+                        INCLUYE
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            <span>✓</span>
+                            Catálogo digital
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Diseño para celular
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Información del negocio
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Botón de WhatsApp
+                        </li>
+
+                    </ul>
+
+
+                    <a
+                        class="price-button"
+                        href="https://wa.me/51967166444?text=Hola%20CreativeX%2C%20estoy%20interesado%20en%20el%20Cat%C3%A1logo%20B%C3%A1sico%20de%20S%2F%20100."
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Quiero este
+                    </a>
+
+                </article>
+
+
+
+                <!-- =========================
+                     PÁGINA WEB
+                ========================== -->
+
+                <article class="price-card price-main">
+
+                    <div class="recommended">
+                        RECOMENDADO
+                    </div>
+
+
+                    <div class="price-top">
+
+                        <span class="price-number">
+                            02
+                        </span>
+
+                        <p class="price-type">
+                            PÁGINA WEB
+                        </p>
+
+                    </div>
+
+
+                    <div class="price">
+                        <small>S/</small> 300
+                    </div>
+
+
+                    <p class="price-description">
+                        Una página completa para presentar
+                        tu negocio de forma profesional.
+                    </p>
+
+
+                    <div class="price-line"></div>
+
+
+                    <p class="includes">
+                        INCLUYE
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            <span>✓</span>
+                            Página web completa
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Diseño para celular
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Secciones personalizadas
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Botón de WhatsApp
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Publicación del sitio
+                        </li>
+
+                    </ul>
+
+
+                    <a
+                        class="price-button"
+                        href="https://wa.me/51967166444?text=Hola%20CreativeX%2C%20estoy%20interesado%20en%20la%20P%C3%A1gina%20Web%20de%20S%2F%20300."
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Quiero este
+                    </a>
+
+                </article>
+
+
+
+                <!-- =========================
+                     WEB PERSONALIZADA
+                ========================== -->
+
+                <article class="price-card">
+
+                    <div class="price-top">
+
+                        <span class="price-number">
+                            03
+                        </span>
+
+                        <p class="price-type">
+                            WEB PERSONALIZADA
+                        </p>
+
+                    </div>
+
+
+                    <div class="price">
+                        <small>S/</small> 450
+                    </div>
+
+
+                    <p class="price-description">
+                        Para negocios que buscan un diseño
+                        hecho especialmente para ellos.
+                    </p>
+
+
+                    <div class="price-line"></div>
+
+
+                    <p class="includes">
+                        INCLUYE
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            <span>✓</span>
+                            Diseño personalizado
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Adaptación a tu negocio
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Animaciones
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Diseño para celular
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            WhatsApp integrado
+                        </li>
+
+                    </ul>
+
+
+                    <a
+                        class="price-button"
+                        href="https://wa.me/51967166444?text=Hola%20CreativeX%2C%20estoy%20interesado%20en%20la%20Web%20Personalizada%20de%20S%2F%20450."
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Quiero este
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PROYECTOS
+        ========================== -->
+
+        <section
+            class="section projects"
+            id="proyectos"
+        >
+
+            <div class="section-title">
+
+                <p class="eyebrow">
+                    MIS PROYECTOS
+                </p>
+
+                <h2>
+                    Trabajos que ya hice.
+                </h2>
+
+                <p>
+                    Algunos de los sitios que he creado.
+                </p>
+
+            </div>
+
+
+            <div class="project-grid">
+
+
+                <article class="project-card">
+
+                    <div class="project-image pizza-image">
+
+                        <div class="pizza-icon">
+                            🍕
+                        </div>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <small>
+                            RESTAURANTE
+                        </small>
+
+                        <h3>
+                            La Casa de la Pizza
+                        </h3>
+
+                        <p>
+                            Página web para restaurante
+                            con menú digital y contacto.
+                        </p>
+
+                        <a
+                            href="https://creativex-hub.github.io/la-casa-de-la-pizza/"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            Ver proyecto ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-image future-image">
+
+                        <div class="plus">
+                            +
+                        </div>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <small>
+                            PRÓXIMO PROYECTO
+                        </small>
+
+                        <h3>
+                            Tu negocio puede estar aquí
+                        </h3>
+
+                        <p>
+                            Estoy creando nuevas páginas
+                            para negocios y emprendedores.
+                        </p>
+
+                        <a href="#contacto">
+                            Hablemos →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PROCESO
+        ========================== -->
+
+        <section
+            class="section process"
+            id="proceso"
+        >
+
+            <div class="section-title">
+
+                <p class="eyebrow">
+                    MI PROCESO
+                </p>
+
+                <h2>
+                    Simple y directo.
+                </h2>
+
+            </div>
+
+
+            <div class="process-grid">
+
+                <div class="process-step">
+
+                    <strong>
+                        01
+                    </strong>
+
+                    <h3>
+                        Me cuentas tu idea
+                    </h3>
+
+                    <p>
+                        Me dices qué vendes y qué
+                        necesitas para tu negocio.
+                    </p>
+
+                </div>
+
+
+                <div class="process-step">
+
+                    <strong>
+                        02
+                    </strong>
+
+                    <h3>
+                        Creo el diseño
+                    </h3>
+
+                    <p>
+                        Desarrollo la página y la
+                        adapto para celular.
+                    </p>
+
+                </div>
+
+
+                <div class="process-step">
+
+                    <strong>
+                        03
+                    </strong>
+
+                    <h3>
+                        Publicamos
+                    </h3>
+
+                    <p>
+                        Tu página queda lista para
+                        compartir con tus clientes.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CONTACTO
+        ========================== -->
+
+        <section
+            class="contact"
+            id="contacto"
+        >
+
+            <div class="contact-avatar">
+                👨‍💻
+            </div>
+
+
+            <div class="contact-content">
+
+                <p class="eyebrow">
+                    ¿TIENES UN NEGOCIO?
+                </p>
+
+                <h2>
+                    Cuéntame qué quieres crear.
+                </h2>
+
+                <p>
+                    Escríbeme por WhatsApp y cuéntame
+                    qué tipo de página necesitas.
+                </p>
+
+                <p>
+                    <strong>
+                        WhatsApp: 967 166 444
+                    </strong>
+                </p>
+
+                <a
+                    class="button primary"
+                    href="https://wa.me/51967166444?text=Hola%20CreativeX%2C%20quiero%20crear%20una%20p%C3%A1gina%20web%20para%20mi%20negocio."
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Hablar por WhatsApp
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-logo">
+            CREATIVE<span>X</span>
+        </div>
+
+        <p>
+            Diseño y desarrollo web para negocios.
+        </p>
+
+    </footer>
 
 
 </body>
 </html>
-```

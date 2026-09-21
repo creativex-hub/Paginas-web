@@ -4,11 +4,6 @@
    STYLE.CSS
    ========================================================= */
 
-
-/* =========================================================
-   CONFIGURACIÓN GENERAL
-   ========================================================= */
-
 * {
     margin: 0;
     padding: 0;
@@ -26,9 +21,6 @@ body {
     overflow-x: hidden;
 }
 
-
-/* Textura ligera de toda la página */
-
 body::before {
     content: "";
     position: fixed;
@@ -43,7 +35,6 @@ body::before {
         );
 
     background-size: 5px 5px;
-
     opacity: 0.18;
 }
 
@@ -74,9 +65,6 @@ body::before {
     backdrop-filter: blur(8px);
 }
 
-
-/* LOGO */
-
 .logo {
     color: #171717;
     text-decoration: none;
@@ -91,9 +79,6 @@ body::before {
     color: #e84b2a;
 }
 
-
-/* MENÚ */
-
 .navbar nav {
     display: flex;
     align-items: center;
@@ -102,7 +87,6 @@ body::before {
 
 .navbar nav a {
     color: #171717;
-
     text-decoration: none;
 
     font-size: 14px;
@@ -115,12 +99,8 @@ body::before {
     color: #e84b2a;
 }
 
-
-/* BOTÓN DEL MENÚ */
-
 .nav-button {
     background: #e84b2a;
-
     color: white !important;
 
     padding: 11px 18px;
@@ -164,48 +144,36 @@ body::before {
         );
 }
 
-
-/* TEXTO */
-
 .hero-text {
     max-width: 650px;
 }
 
-
 .eyebrow {
     font-size: 12px;
-
     font-weight: 900;
-
     letter-spacing: 2px;
 
     margin-bottom: 14px;
 }
 
-
 .hero h1 {
     font-size: clamp(55px, 7vw, 90px);
 
     line-height: 0.9;
-
     letter-spacing: -5px;
-
     font-weight: 900;
 
     margin-bottom: 28px;
 }
 
-
 .hero h1 span {
     color: #e84b2a;
 }
 
-
 .hero-description {
-    max-width: 570px;blob:https://web.whatsapp.com/156be8d3-7bda-456b-947f-5f35b3fd04ef
+    max-width: 570px;
 
     font-size: 18px;
-
     line-height: 1.55;
 
     color: #333;
@@ -213,17 +181,11 @@ body::before {
     margin-bottom: 30px;
 }
 
-
-/* BOTONES */
-
 .hero-buttons {
     display: flex;
-
     gap: 14px;
-
     flex-wrap: wrap;
 }
-
 
 .button {
     display: inline-block;
@@ -233,7 +195,6 @@ body::before {
     border: 3px solid #171717;
 
     text-decoration: none;
-
     font-weight: 900;
 
     box-shadow: 5px 5px 0 #171717;
@@ -241,24 +202,19 @@ body::before {
     transition: 0.15s;
 }
 
-
 .button:hover {
     transform: translate(3px, 3px);
 
     box-shadow: 2px 2px 0 #171717;
 }
 
-
 .primary {
     background: #e84b2a;
-
     color: white;
 }
 
-
 .secondary {
     background: white;
-
     color: #171717;
 }
 
@@ -271,7 +227,6 @@ body::before {
     height: 470px;
 
     position: relative;
-
     overflow: hidden;
 
     background: #a9e3f4;
@@ -280,9 +235,6 @@ body::before {
 
     box-shadow: 8px 8px 0 #171717;
 }
-
-
-/* NUBES */
 
 .cloud {
     position: absolute;
@@ -296,7 +248,6 @@ body::before {
 
     border-radius: 50px;
 }
-
 
 .cloud::before,
 .cloud::after {
@@ -313,32 +264,26 @@ body::before {
     border-radius: 50%;
 }
 
-
 .cloud::before {
     width: 50px;
     height: 50px;
 
     left: 15px;
-
     bottom: 15px;
 }
-
 
 .cloud::after {
     width: 65px;
     height: 65px;
 
     right: 10px;
-
     bottom: 15px;
 }
-
 
 .cloud-one {
     top: 70px;
     left: 35px;
 }
-
 
 .cloud-two {
     top: 145px;
@@ -360,7 +305,6 @@ body::before {
     border: 3px solid #171717;
 }
 
-
 .hill-one {
     width: 700px;
     height: 190px;
@@ -370,7 +314,6 @@ body::before {
     left: -100px;
     bottom: -110px;
 }
-
 
 .hill-two {
     width: 650px;
@@ -393,14 +336,12 @@ body::before {
     width: 190px;
 
     left: 50%;
-
     bottom: 65px;
 
     transform: translateX(-50%);
 
     animation: characterFloat 3s ease-in-out infinite;
 }
-
 
 @keyframes characterFloat {
 
@@ -416,9 +357,6 @@ body::before {
         transform: translateX(-50%) translateY(0);
     }
 }
-
-
-/* CABEZA */
 
 .head {
     width: 175px;
@@ -437,9 +375,6 @@ body::before {
     z-index: 3;
 }
 
-
-/* OREJAS */
-
 .ear {
     position: absolute;
 
@@ -457,18 +392,13 @@ body::before {
     z-index: -1;
 }
 
-
 .left-ear {
     left: -28px;
 }
 
-
 .right-ear {
     right: -28px;
 }
-
-
-/* CABELLO */
 
 .hair {
     position: absolute;
@@ -486,9 +416,6 @@ body::before {
     border-radius: 70% 70% 25% 25%;
 }
 
-
-/* OJOS */
-
 .eye {
     position: absolute;
 
@@ -504,7 +431,6 @@ body::before {
     border-radius: 50%;
 }
 
-
 .eye span {
     position: absolute;
 
@@ -519,18 +445,13 @@ body::before {
     top: 5px;
 }
 
-
 .left-eye {
     left: 43px;
 }
 
-
 .right-eye {
     right: 43px;
 }
-
-
-/* NARIZ */
 
 .nose {
     position: absolute;
@@ -542,14 +463,10 @@ body::before {
     top: 90px;
 
     border-left: 4px solid #171717;
-
     border-bottom: 4px solid #171717;
 
     transform: rotate(-25deg);
 }
-
-
-/* BOCA */
 
 .mouth {
     position: absolute;
@@ -586,9 +503,6 @@ body::before {
 
     z-index: 2;
 }
-
-
-/* LOGO DEL PERSONAJE */
 
 .shirt-logo {
     position: absolute;
@@ -634,11 +548,9 @@ body::before {
     z-index: 1;
 }
 
-
 .left-leg {
     left: 43px;
 }
-
 
 .right-leg {
     right: 43px;
@@ -666,11 +578,9 @@ body::before {
     z-index: 2;
 }
 
-
 .left-shoe {
     left: 20px;
 }
-
 
 .right-shoe {
     right: 20px;
@@ -696,14 +606,12 @@ body::before {
     padding: 13px 18px;
 
     font-size: 17px;
-
     line-height: 1.1;
 
     box-shadow: 4px 4px 0 #171717;
 
     transform: rotate(3deg);
 }
-
 
 .speech-bubble strong {
     display: block;
@@ -722,15 +630,11 @@ body::before {
     padding: 105px 7%;
 }
 
-
-/* TÍTULOS */
-
 .section-title {
     max-width: 720px;
 
     margin-bottom: 45px;
 }
-
 
 .section-title h2 {
     font-size: 48px;
@@ -741,7 +645,6 @@ body::before {
 
     margin-bottom: 15px;
 }
-
 
 .section-title > p:last-child {
     font-size: 17px;
@@ -760,7 +663,6 @@ body::before {
     background: #f5efdf;
 }
 
-
 .service-grid {
     display: grid;
 
@@ -769,7 +671,6 @@ body::before {
 
     gap: 18px;
 }
-
 
 .service-card {
     min-height: 250px;
@@ -785,11 +686,9 @@ body::before {
     transition: 0.2s;
 }
 
-
 .service-card:hover {
     transform: translateY(-7px);
 }
-
 
 .service-number {
     color: #e84b2a;
@@ -799,18 +698,312 @@ body::before {
     margin-bottom: 45px;
 }
 
-
 .service-card h3 {
     font-size: 23px;
 
     margin-bottom: 10px;
 }
 
-
 .service-card p {
     color: #555;
 
     line-height: 1.5;
+}
+
+
+/* =========================================================
+   PRECIOS — DISEÑO NUEVO
+   ========================================================= */
+
+.pricing {
+    background: #f5efdf;
+}
+
+.pricing-title {
+    margin-bottom: 55px;
+}
+
+.pricing-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+
+    align-items: stretch;
+}
+
+.price-card {
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 32px 28px 28px;
+
+    background: white;
+
+    border: 3px solid #171717;
+
+    box-shadow: 8px 8px 0 #171717;
+
+    transition:
+        transform 0.2s,
+        box-shadow 0.2s;
+}
+
+.price-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow: 8px 15px 0 #171717;
+}
+
+
+/* TARJETA CENTRAL */
+
+.price-main {
+    background: #fff8e8;
+
+    border-color: #171717;
+
+    transform: translateY(-10px);
+}
+
+.price-main:hover {
+    transform: translateY(-18px);
+}
+
+
+/* ETIQUETA RECOMENDADO */
+
+.recommended {
+    position: absolute;
+
+    top: -17px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    white-space: nowrap;
+
+    padding: 7px 14px;
+
+    background: #e84b2a;
+
+    color: white;
+
+    border: 3px solid #171717;
+
+    box-shadow: 4px 4px 0 #171717;
+
+    font-size: 10px;
+
+    font-weight: 900;
+
+    letter-spacing: 1px;
+}
+
+
+/* PARTE SUPERIOR */
+
+.price-top {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-bottom: 18px;
+}
+
+.price-number {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 38px;
+    height: 38px;
+
+    flex-shrink: 0;
+
+    background: #171717;
+
+    color: white;
+
+    font-size: 12px;
+
+    font-weight: 900;
+
+    border-radius: 50%;
+}
+
+.price-type {
+    color: #e84b2a;
+
+    font-size: 13px;
+
+    font-weight: 900;
+
+    letter-spacing: 1.3px;
+}
+
+
+/* PRECIO */
+
+.price {
+    display: flex;
+
+    align-items: baseline;
+
+    gap: 5px;
+
+    font-size: 55px;
+
+    font-weight: 900;
+
+    line-height: 1;
+
+    letter-spacing: -3px;
+
+    margin-bottom: 18px;
+}
+
+.price small {
+    font-size: 24px;
+
+    letter-spacing: -1px;
+
+    color: #e84b2a;
+}
+
+
+/* DESCRIPCIÓN */
+
+.price-description {
+    min-height: 72px;
+
+    color: #555;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+
+    margin-bottom: 22px;
+}
+
+
+/* LÍNEA */
+
+.price-line {
+    width: 100%;
+
+    height: 3px;
+
+    background: #171717;
+
+    margin-bottom: 18px;
+}
+
+
+/* INCLUYE */
+
+.includes {
+    color: #171717;
+
+    font-size: 10px;
+
+    font-weight: 900;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 7px;
+}
+
+
+/* LISTA */
+
+.price-card ul {
+    list-style: none;
+
+    margin-bottom: 27px;
+}
+
+.price-card li {
+    display: flex;
+
+    align-items: center;
+
+    gap: 9px;
+
+    padding: 9px 0;
+
+    border-bottom: 1px solid #ddd;
+
+    color: #333;
+
+    font-size: 14px;
+
+    line-height: 1.4;
+}
+
+.price-card li span {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 21px;
+    height: 21px;
+
+    flex-shrink: 0;
+
+    background: #e84b2a;
+
+    color: white;
+
+    font-size: 12px;
+
+    font-weight: 900;
+
+    border-radius: 50%;
+}
+
+
+/* BOTÓN */
+
+.price-button {
+    display: block;
+
+    width: 100%;
+
+    margin-top: auto;
+
+    padding: 14px 15px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    font-weight: 900;
+
+    background: #e84b2a;
+
+    color: white;
+
+    border: 3px solid #171717;
+
+    box-shadow: 5px 5px 0 #171717;
+
+    transition: 0.15s;
+}
+
+.price-button:hover {
+    transform: translate(3px, 3px);
+
+    box-shadow: 2px 2px 0 #171717;
 }
 
 
@@ -822,7 +1015,6 @@ body::before {
     background: #dceff1;
 }
 
-
 .project-grid {
     display: grid;
 
@@ -831,7 +1023,6 @@ body::before {
 
     gap: 25px;
 }
-
 
 .project-card {
     background: white;
@@ -843,29 +1034,24 @@ body::before {
     overflow: hidden;
 }
 
-
 .project-image {
     height: 260px;
 
     display: flex;
 
     align-items: center;
-
     justify-content: center;
 
     border-bottom: 3px solid #171717;
 }
 
-
 .pizza-image {
     background: #e84b2a;
 }
 
-
 .future-image {
     background: #8db9df;
 }
-
 
 .pizza-icon {
     font-size: 100px;
@@ -873,7 +1059,6 @@ body::before {
     filter:
         drop-shadow(5px 5px 0 #171717);
 }
-
 
 .plus {
     font-size: 100px;
@@ -883,11 +1068,9 @@ body::before {
     font-weight: 900;
 }
 
-
 .project-content {
     padding: 25px;
 }
-
 
 .project-content small {
     font-size: 11px;
@@ -897,13 +1080,11 @@ body::before {
     letter-spacing: 1.5px;
 }
 
-
 .project-content h3 {
     font-size: 28px;
 
     margin: 8px 0;
 }
-
 
 .project-content p {
     color: #555;
@@ -913,7 +1094,6 @@ body::before {
     margin-bottom: 18px;
 }
 
-
 .project-content a {
     color: #e84b2a;
 
@@ -921,7 +1101,6 @@ body::before {
 
     text-decoration: none;
 }
-
 
 .project-content a:hover {
     text-decoration: underline;
@@ -936,7 +1115,6 @@ body::before {
     background: #f5efdf;
 }
 
-
 .process-grid {
     display: grid;
 
@@ -946,13 +1124,11 @@ body::before {
     gap: 25px;
 }
 
-
 .process-step {
     padding-top: 18px;
 
     border-top: 4px solid #171717;
 }
-
 
 .process-step strong {
     color: #e84b2a;
@@ -960,13 +1136,11 @@ body::before {
     font-size: 14px;
 }
 
-
 .process-step h3 {
     font-size: 25px;
 
     margin: 18px 0 9px;
 }
-
 
 .process-step p {
     color: #555;
@@ -999,16 +1173,13 @@ body::before {
     box-shadow: 8px 8px 0 #e84b2a;
 }
 
-
 .contact .eyebrow {
     color: #f1b54a;
 }
 
-
 .contact-content {
     max-width: 700px;
 }
-
 
 .contact-content h2 {
     font-size: 50px;
@@ -1018,7 +1189,6 @@ body::before {
     margin-bottom: 18px;
 }
 
-
 .contact-content > p:not(.eyebrow) {
     color: #d0d0d0;
 
@@ -1027,6 +1197,9 @@ body::before {
     line-height: 1.5;
 }
 
+.contact-content strong {
+    color: white;
+}
 
 .contact-avatar {
     width: 145px;
@@ -1067,7 +1240,6 @@ footer {
     color: #999;
 }
 
-
 .footer-logo {
     color: white;
 
@@ -1076,11 +1248,9 @@ footer {
     font-weight: 900;
 }
 
-
 .footer-logo span {
     color: #e84b2a;
 }
-
 
 footer p {
     font-size: 14px;
@@ -1099,7 +1269,6 @@ footer p {
         padding-top: 60px;
     }
 
-
     .character-area {
         max-width: 650px;
 
@@ -1108,22 +1277,38 @@ footer p {
         margin: auto;
     }
 
-
     .service-grid {
         grid-template-columns:
             repeat(2, 1fr);
     }
 
+    .pricing-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .price-main {
+        transform: none;
+    }
+
+    .price-main:hover {
+        transform: translateY(-8px);
+    }
+
+    .price-card:last-child {
+        grid-column: 1 / -1;
+        max-width: calc(50% - 12px);
+        width: 100%;
+        margin: auto;
+    }
 
     .project-grid {
         grid-template-columns: 1fr;
     }
 
-
     .process-grid {
         grid-template-columns: 1fr;
     }
-
 }
 
 
@@ -1139,21 +1324,17 @@ footer p {
         padding: 0 5%;
     }
 
-
     .navbar nav {
         gap: 8px;
     }
-
 
     .navbar nav a:not(.nav-button) {
         display: none;
     }
 
-
     .logo {
         font-size: 22px;
     }
-
 
     .hero {
         padding:
@@ -1163,18 +1344,15 @@ footer p {
         gap: 45px;
     }
 
-
     .hero h1 {
         font-size: 54px;
 
         letter-spacing: -3px;
     }
 
-
     .hero-description {
         font-size: 16px;
     }
-
 
     .hero-buttons {
         flex-direction: column;
@@ -1182,16 +1360,13 @@ footer p {
         align-items: stretch;
     }
 
-
     .button {
         text-align: center;
     }
 
-
     .character-area {
         height: 410px;
     }
-
 
     .speech-bubble {
         right: 10px;
@@ -1201,37 +1376,83 @@ footer p {
         font-size: 15px;
     }
 
-
     .section {
         padding:
             75px 5%;
     }
 
-
     .section-title h2 {
         font-size: 40px;
     }
 
-
     .service-grid {
         grid-template-columns: 1fr;
     }
-
 
     .service-card {
         min-height: auto;
     }
 
 
+    /* PRECIOS EN CELULAR */
+
+    .pricing-title {
+        margin-bottom: 45px;
+    }
+
+    .pricing-grid {
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+    }
+
+    .price-card:last-child {
+        grid-column: auto;
+
+        max-width: none;
+
+        width: 100%;
+
+        margin: 0;
+    }
+
+    .price-main {
+        transform: none;
+    }
+
+    .price-main:hover {
+        transform: translateY(-8px);
+    }
+
+    .price-card {
+        padding: 30px 22px 25px;
+    }
+
+    .price {
+        font-size: 48px;
+    }
+
+    .price-description {
+        min-height: auto;
+    }
+
+    .recommended {
+        top: -16px;
+    }
+
+
+    /* PROYECTOS */
+
     .project-image {
         height: 220px;
     }
-
 
     .project-content h3 {
         font-size: 24px;
     }
 
+
+    /* CONTACTO */
 
     .contact {
         margin:
@@ -1246,11 +1467,9 @@ footer p {
         align-items: flex-start;
     }
 
-
     .contact-content h2 {
         font-size: 40px;
     }
-
 
     .contact-avatar {
         width: 100px;
@@ -1260,6 +1479,8 @@ footer p {
     }
 
 
+    /* FOOTER */
+
     footer {
         padding:
             30px 5%;
@@ -1267,11 +1488,9 @@ footer p {
         display: block;
     }
 
-
     footer p {
         margin-top: 8px;
     }
-
 }
 
 
@@ -1284,12 +1503,10 @@ footer p {
         fadeUp 0.8s ease forwards;
 }
 
-
 .character-area {
     animation:
         fadeUp 1s ease forwards;
 }
-
 
 @keyframes fadeUp {
 
@@ -1306,6 +1523,5 @@ footer p {
         transform:
             translateY(0);
     }
-
 }
 ```
